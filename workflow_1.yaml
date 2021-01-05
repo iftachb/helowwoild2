@@ -4,6 +4,7 @@ on: [push]
 jobs:
   build:
     name: "Build project"
+
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout current repository in ubuntu's file system"
